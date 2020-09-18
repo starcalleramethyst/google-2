@@ -1,0 +1,1 @@
+This is a fresh start, a second attempt at the google homepage reverse-engineering project from The Odin Project. I attempted it the first time and determined that I needed to go back and finish the Responsive Web Design 101 course in freeCodeCamp. And so I have, and here I am. 
