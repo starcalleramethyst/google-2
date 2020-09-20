@@ -3,29 +3,3 @@ html, body {
     color: #222;
 }
 
-.center {
-    display: flex; 
-    align-items: center;
-    justify-items: center;
-}
-
-#logo-search {
-    height: 233px;
-    margin-top: 89px;
-}
-
-#mainlogo {
-    height: 92px;
-    width: 272px;
-    padding-top: 109px;
-    padding-left: 25%;
-    padding-right: 25%;
-    margin-left: 25%;
-    margin-right: 25%;
-}
-
-#searchbox {
-    padding-left: 25%;
-    padding-right: 25%;
-}
-
