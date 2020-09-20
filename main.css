@@ -9,7 +9,19 @@ html, body {
     margin-right: auto;
     width: 50%;
 }
-
+input > #textbox {
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    margin-top: -37px;
+}
 #logo-search {
     display: block;
     height: 233px;
@@ -20,5 +32,12 @@ html, body {
     height: 92px;
     width: 272px;
     padding-top: 109px;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+#searchbox {
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
