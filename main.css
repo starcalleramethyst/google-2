@@ -4,10 +4,9 @@ html, body {
 }
 
 .center {
-    display: block; /* the div, and anything else with the class 'center' will be displayed as a block (its own line, full width) */
-    width: 50%; /* sets the display block to take up 50% of the parent element */
-    margin-left: auto; /* sets the margin for left and right to 'auto'. since it is styling a block, the auto margin is 0px. */
-    margin-right: auto;
+    display: flex; 
+    align-items: center;
+    justify-items: center;
 }
 
 #logo-search {
