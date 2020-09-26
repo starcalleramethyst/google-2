@@ -40,6 +40,9 @@ html, body {
     height: 52px;
     width: 484px;
     border: .5px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 #inputContainer {
@@ -52,16 +55,20 @@ html, body {
 #magIcon {
     height: 20px;
     width: 20px;
+    flex: 1 0 auto;
 }
 
 #textBox {
     border: none;
     flex: 3 0 387px;
+    margin-top: -37px;
+    flex: 1 1 100%;
 }
 
 #micIcon {
     height: 24px;
     width: 24px;
+    flex: 1 0 auto;
 }
 
 
