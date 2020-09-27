@@ -158,9 +158,10 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 225px;
     height: 50px;
     width: 100%;
     background-color: rgb(229, 226, 226);
+    position: fixed;
+    bottom: 0;
 }
 
