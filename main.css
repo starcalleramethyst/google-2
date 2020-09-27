@@ -23,6 +23,7 @@ html, body {
 }
 
 /* logo stylying */
+
 #logoContainer {
     display: flex;
     flex-direction: row;
@@ -69,9 +70,10 @@ form {
 /* search element styling */
 
 #magIcon {
-    height: 20px;
-    width: 20px;
-    margin-top: 9px;
+    height: 15px;
+    width: 15px;
+    margin-top: 15px;
+    margin-left: 5px;
 }
 
 #textBox {
@@ -85,3 +87,21 @@ form {
     margin-top: 9px;
 }
 
+/* btn styling */
+
+#btnContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.btns {
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 150px;
+    height: 36px;
+}
