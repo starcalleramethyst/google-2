@@ -17,6 +17,12 @@ li {
     color: grey;
 }
 
+a {
+    font-family: Arial, sans-serif;
+    color: grey;
+    text-decoration: none;
+}
+
 /* header styling */
 header {
     display: flex;
